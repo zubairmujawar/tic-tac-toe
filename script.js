@@ -43,10 +43,14 @@ const checkWinner = () => {
   }
 };
 const showWinner = (winner) => {
-  msg.innerText = `Congratulations, Winner is ${winner}`;
+  msg.innerText = `💐Congratulations, Winner is ${winner}`;
+  for(let box of Boxes){
+    box.disabled = true;
+  }
 };
 restartBtn.addEventListener("click", () => {
-  for(let box of Boxes){
-    box.innerText = ""
+  for (let box of Boxes) {
+    box.innerText = "";
   }
 });
+
