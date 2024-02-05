@@ -84,9 +84,6 @@
     /* background-color: violet; */
     padding: 1rem;
     font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 @media only screen and (max-width> 450px) {
@@ -96,9 +93,6 @@
     padding: 1rem;
     gap: 3px;
   }
-  .Box {
-    background-color: blue;
-  }
 }
 @media only screen and (max-width< 430px) {
   .boxs {
@@ -106,8 +100,5 @@
     height: 130vmin;
     padding: 1rem;
     gap: 3px;
-  }
-  .Box {
-    background-color: blue;
   }
 }
